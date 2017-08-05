@@ -27,7 +27,7 @@
 #define EPOCHFILETIME (116444736000000000LL)
 #endif
 
-int gettimeofday(struct timeval *tv, void *tz)
+CK_DLL_EXP int gettimeofday(struct timeval *tv, void *tz)
 {
 #if _MSC_VER
     union
